@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kali Linux</title>
+</head>
+
+<body>
+
+    <header class="navbar">
+            <img src="./kartinki/kalii.png" alt="Kali Logo">
+            <h2 id="text1">Kali <span style="color:blueviolet">Linux</span></h2>
+        </div>
+
+        <nav class="menu">
+            <a href="#">Головна</a>
+            <a href="#">Про проект</a>
+            <a href="#">Встановити</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <div class="box">
+        <h1 id = "text"><span>Kali</span> <span style="color:blueviolet">Linux</span></h1>
+        <img id="kart2" src="./kartinki/kalii.png">
+        <p>Потужний дистрибутив для тестування на проникнення.</p>
+        <a id="knopka" href="#">Дізнатися більше ➡️</a>
+    </div>
+
+    <hr id = "lele">
+
+    <h1 id = "text2">Про <span style="color:rgb(233, 187, 254)">Kali</span> <span style="color:blueviolet">Linux</span></h1>
+    <img id = "kartinka" src="./kartinki/kartinka.jpg">
+    <p id = "text3">Kali Linux — це спеціалізований дистрибутив на базі Debian, створений для спеціалістів по безпеці.</p>
+    <hr id = "hrr">
+    <footer>
+        <p>2026 Kali Linux</p>
+    </footer>
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background-color: blueviolet;
+        }
+
+        header {
+            background-color: black;
+        }
+
+       
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            box-sizing: border-box;
+        }
+
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        
+        .navbar img {
+            width: 100px;
+            height: auto;
+        }
+
+        
+        #text1 {
+            position:relative;
+            margin-right:700px;
+            /* margin: 0; */
+            color: white;
+            font-size:50px;
+        }
+
+        
+        .menu {
+            display: flex;
+            gap: 20px;
+            margin-right: 150px;
+        }
+
+        
+        .menu a {
+            background-color: blueviolet;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            scale:1;
+        }
+
+        .menu a:hover {
+            cursor:pointer;
+            box-shadow:0 8px 25px rgba(108, 63, 150);
+            opacity: 0.8;
+            scale:1.2;
+        }
+
+#kart2 {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    right: 0;
+    top:210px;
+}
+
+        #knopka {
+            position:absolute;
+            background-color: blueviolet;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            scale:1;
+            margin-top:90px;
+        }
+
+        #knopka:hover{
+            box-shadow:0 8px 25px rgba(108, 63, 150);
+            scale:1.2;
+        }
+
+        #lele {
+            position: relative;
+            margin-top:300px;
+        }
+
+        #text2 {
+            position:absolute;
+            font-size:80px;
+        }
+
+        #text3 {
+            position:absolute;
+            margin-top:200px;
+            font-size:20px;
+        }
+
+        footer {
+            position:absolute;
+            margin-top:100px;
+            margin-left:900px;
+        }
+
+        #hrr {
+            position:relative;
+            background-color:blueviolet;
+            margin-top:600px
+
+        }
+
+        #text {
+            font-size:50px;
+        }
+
+        #kartinka {
+            position:absolute;
+            width:600px;
+            margin-top: 200px;
+            margin-left:1000px;
+        }
+
+    </style>
+</body>
+
+</html>
